@@ -48,3 +48,15 @@ git push -u origin main
 
 Simplemente copiamos y pegamos ese comando y automáticamente el archivo que agregamos se subirá a nuestro repositorio en GitHub.
 
+
+
+Paso final: A partir de ahí ya tenemos nuestro repositorio creado en GitHub con nuestro archivo subido, cada vez que queramos subir algo seguimos los mismos pasos de **git add (nombre del archivo)** y **git commit -m "Nombre del commit"** (**Nota**: si es una modificación al archivo es recomendable especificar en el nombre del commit que es un Modify a X archivo"
+
+
+
+por ultimo para publicar estos nuevos archivos o modificaciones vamos a ejecutar el comando **Git Push** y automáticamente va a publicarlo en nuestro repositorio de GitHub.
+
+
+
+Muchas gracias por su atención :)
+
