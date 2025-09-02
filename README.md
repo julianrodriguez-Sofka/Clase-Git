@@ -60,7 +60,31 @@ por ultimo para publicar estos nuevos archivos o modificaciones vamos a ejecutar
 
 
 
-# 
+
+
+# Git Avanzado y Branching
+
+
+
+
+
+
+
+Para comenzar esta clase debemos estar ya ubicados en nuestra carpeta donde tenemos nuestro repositorio en GitHub.
+
+
+
+Vamos a identificar lo que son las ramas y como podemos crearlas.
+
+Las ramas son espacios diferentes en nuestro proyecto, la rama mas importante es la **Main** pero para añadir cambios o corregir errores se crean diferentes ramas según su necesidad, en este caso vamos a crear las ramas **de Develop, Hotfix y Feature**. 
+
+
+
+El **Develop** es donde se trabaja el proyecto como si fuera la main pero sin la necesidad de estar publicado para los usuarios, asi nos aseguramos que todo lo que estemos haciendo no tiene ninguna falla y este todo en orden para poder pasarlo a la Main (Por ejemplo esta primera parte se esta creando primero en Develop)
+
+El **Hotfix** es cuando el proyecto tiene un problema/bug y intentamos arreglarlo mediante esta rama solo el problema en especifico, (en este caso creare un conflicto con el merge e intentare resolverlo con esta rama)
+
+El **Feature** se utiliza cuando vamos a añadir cosas nuevas en nuestro proyecto en la rama de **Develop**, no podemos añadirlo directamente a la main porque primero debemos asegurarnos que todo funciona correctamente antes de ser publicado en la main
 
 
 
