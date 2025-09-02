@@ -60,6 +60,7 @@ por ultimo para publicar estos nuevos archivos o modificaciones vamos a ejecutar
 
 
 
+<<<<<<< Updated upstream
 
 
 # Git Avanzado y Branching
@@ -85,10 +86,27 @@ El **Develop** es donde se trabaja el proyecto como si fuera la main pero sin la
 El **Hotfix** es cuando el proyecto tiene un problema/bug y intentamos arreglarlo mediante esta rama solo el problema en especifico, (en este caso creare un conflicto con el merge e intentare resolverlo con esta rama)
 
 El **Feature** se utiliza cuando vamos a añadir cosas nuevas en nuestro proyecto en la rama de **Develop**, no podemos añadirlo directamente a la main porque primero debemos asegurarnos que todo funciona correctamente antes de ser publicado en la main
+=======
+##### **¿Cómo crear ramas, moverse entre ramas y eliminar ramas?**
+>>>>>>> Stashed changes
 
 
 
+Para crear ramas debemos insertar el siguiente comando `git cheackout -b (Nombre de la rama)` o también podemos usar `git switch -c (Nombre de la rama)`.
 
+Para poder ver la lista de las ramas que tenemos usamos el siguiente comando `git branch`
+
+Para eliminar una rama debemos usar `git Branch -d (Nombre de la rama)`
+
+Para movernos entre ramas usaremos el comando `git switch (Nombre de la rama)`
+
+
+
+También podemos guardar lo que hacemos en nuestra rama, esto se realiza cuando estemos trabajando en una rama y aun no hemos terminado nuestro trabajo y no queremos pasarlo a la la rama main o Develop pues podemos guardar sin ningún problema, en este caso voy a hacerlo con la rama Feature.
+
+
+
+Para esto usaremos el comando `git stash` para guardar temporalmente estos nuevos cambios
 
 
 
