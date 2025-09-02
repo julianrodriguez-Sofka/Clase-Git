@@ -84,7 +84,7 @@ El **Develop** es donde se trabaja el proyecto como si fuera la main pero sin la
 
 El **Hotfix** es cuando el proyecto tiene un problema/bug y intentamos arreglarlo mediante esta rama solo el problema en especifico, (en este caso creare un conflicto con el merge e intentare resolverlo con esta rama)
 
-El **Feature** se utiliza cuando vamos a añadir cosas nuevas en nuestro proyecto en la rama de **Develop**, no podemos añadirlo directamente a la main porque primero debemos asegurarnos que todo funciona correctamente antes de ser publicado en la main
+El **Feature** se utiliza cuando vamos a añadir cosas nuevas en nuestro proyecto en la rama de **Develop**, no podemos añadirlo directamente a la main porque primero debemos asegurarnos que todo funciona correctamente antes de ser publicado en la main AQUI HAREMOS EL CONFLICTO ya que estoy modificando
 
 
 
