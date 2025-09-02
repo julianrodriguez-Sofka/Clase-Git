@@ -126,3 +126,5 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 Esto me indica que debo resolver los conflictos del archivo y también me indica lo que se ha modificado, vamos a corregir el comando correcto que es `git stash pop` y borrar el texto que cree antes arriba, también debemos eliminar las indicaciones que nos coloca y colocar el archivo como debe ser.
 
+Ya teniendo todo el texto correcto en la rama de Develop vamos a hacer un merge en la main y publicarlo en GitHub 
+
