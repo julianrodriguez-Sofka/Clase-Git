@@ -128,3 +128,17 @@ Esto me indica que debo resolver los conflictos del archivo y también me indica
 
 Ya teniendo todo el texto correcto en la rama de Develop vamos a hacer un merge en la main y publicarlo en GitHub 
 
+
+##### **¿Cómo hacer un commit de forma profesional?**
+
+Como pueden observar en los commits de este documento se han realizado de una forma estructurada, les dejo una web donde nos enseñara como realizar esta estructura correctamente al realizar un commit: https://www.conventionalcommits.org/en/v1.0.0/
+
+Los commits deben indicar que es lo que se realiza, en donde se realiza y especificar que se realizó, tenemos commits como:
+
+- Feat: para agregar cosas nuevas
+- Fix: Para arreglar bugs
+- Docs: Para Documentación
+- Test: para testear 
+etc.
+
+De esta forma podremos indicar en el commit que se realizo en ese momento, se escribe en ingles normalmente para un mejor orden y entendimiento, por ejemplo este ultimo commit se hará de la siguiente manera `git commit -m "Feat(Docs): Commits"`
