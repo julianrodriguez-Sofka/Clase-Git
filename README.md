@@ -1,4 +1,6 @@
-Clase git
+# Introducción y Git Fundamentals
+
+
 
 
 
@@ -58,13 +60,9 @@ por ultimo para publicar estos nuevos archivos o modificaciones vamos a ejecutar
 
 
 
-Muchas gracias por su atención :)
+# 
 
 
-
-En esta rama voy a hacer un cappp
-
-otro conflicto
 
 
 
