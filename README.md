@@ -108,5 +108,12 @@ También podemos guardar lo que hacemos en nuestra rama, esto se realiza cuando 
 
 Para esto usaremos el comando `git stash` para guardar temporalmente estos nuevos cambios
 
+Ahora terminaremos de explicar este tema creando un conflicto y como resolverlo
 
+para ver la lista de los stash que hemos hecho se usa el comando `git stash list`
+para volver a traer esos datos usamos el comando `git stash pope` en la rama que los queramos traer.
+
+Normalmente cuando hagamos esto nos va generar un conflicto, en nuestro archivo nos va indicar exactamente que es el update y stash que estamos aplicando, modificamos como nos parezca correcto y hacemos el `git add .` y el commit
+
+como podemos observar hice un error a propósito vamos a generar el conflicto y a resolverlo
 
